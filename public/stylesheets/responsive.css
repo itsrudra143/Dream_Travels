@@ -1,0 +1,882 @@
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+  #menu-icon {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(-100%, 65%);
+  }
+  header p a {
+    font-size: 18px;
+    transform: translateY(-20%);
+  }
+
+  nav {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    transform: translateY(-200%);
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+  }
+  nav ul {
+    /* position: relative; */
+    flex-direction: column;
+    height: max-content;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  #sec1-heading {
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: end;
+  }
+  #heading1 {
+    font-size: 30px;
+  }
+  #heading2 {
+    font-size: 25px;
+  }
+  #sec2 {
+    gap: 1rem;
+  }
+  #sec2-heading {
+    margin-top: 3rem;
+    gap: 0.5rem;
+  }
+  #sec2-heading p {
+    font-size: 20px;
+  }
+  #sec2-heading .line {
+    height: 1px;
+  }
+  #sec2-p {
+    font-size: 6px;
+    line-height: 1rem;
+  }
+  #sec2-bottom {
+    flex-wrap: wrap;
+  }
+  .bottom-content {
+    gap: 0.4rem;
+  }
+  .bottom-img {
+    width: 70px;
+    height: 100px;
+  }
+  .bottom-heading {
+    font-size: 15px;
+  }
+  .bottom-para {
+    font-size: 10px;
+  }
+  #bar {
+    height: 100px;
+    gap: 0.5rem;
+  }
+  .info {
+    line-height: 1rem;
+    gap: 0rem;
+  }
+
+  #sec3 {
+    padding-top: 3rem;
+  }
+  #sec3 .number {
+    font-size: 20px;
+  }
+  #sec3 .message {
+    font-size: 8px;
+  }
+  #contact {
+    height: 600px;
+  }
+  #contact form {
+    gap: 1rem;
+  }
+  #contact-heading {
+    font-size: 30px;
+  }
+  #contact-message {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+  .form-row input::placeholder {
+    font-size: 12px;
+  }
+  .form-row select,
+  .form-lastrow input,
+  textarea {
+    font-size: 12px;
+  }
+  .form-row input,
+  select {
+    width: 120px;
+    height: 50px;
+  }
+  #contact form button {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  #sec5 #about {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #imgleft {
+    padding-top: 2rem;
+    width: 300px;
+    height: 250px;
+  }
+  #right {
+    border: #d2d4d8 solid 1px;
+    padding-top: 1rem;
+  }
+  #sec5 #p1 {
+    font-size: 20px;
+  }
+  #sec5 #p2 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #team {
+    flex-wrap: wrap;
+  }
+  #team .content .description {
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: #000 solid 1px;
+    /* padding: 0.7rem 0.8rem; */
+  }
+  #team .content img {
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+  #team .content .line {
+    height: 15px;
+    width: 1px;
+  }
+  #sec6 {
+    flex-wrap: wrap;
+    padding-top: 35rem;
+  }
+  #sec6 #sec6-text #sec6-heading {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 15px;
+  }
+  #sec6 #sec6-text #sec6-message {
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 12px;
+  }
+  #sec6 #gallery #gallery-controls button {
+    border: #995336 solid 1px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  footer #footer-top {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  footer #footer-top .top-content {
+    gap: 0.5rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  footer #footer-top .top-content p {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  footer #footer-top .top-content ul {
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer #footer-top .top-content ul li {
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 10px;
+  }
+  #address ul li a {
+    font-size: 6px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    text-align: center;
+  }
+  #address ul li {
+    align-items: center;
+    justify-content: center;
+  }
+  #footer-bottom {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #footer-bottom p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer-bottom ul li a {
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+    justify-content: space-around;
+  }
+  #sec2 {
+    gap: 1rem;
+  }
+  #sec2-bottom {
+    gap: 2rem;
+  }
+  #sec2-heading {
+    margin-top: 3rem;
+    gap: 0.5rem;
+  }
+  #sec2-heading p {
+    font-size: 40px;
+  }
+  #sec2-heading .line {
+    height: 1.5px;
+  }
+  #sec2-p {
+    font-size: 15px;
+    line-height: 1rem;
+  }
+  #sec2-bottom {
+    flex-wrap: wrap;
+  }
+  .bottom-content {
+    gap: 1.5rem;
+  }
+  .bottom-img {
+    width: 100px;
+    height: 130px;
+  }
+  .bottom-heading {
+    font-size: 20px;
+  }
+  .bottom-para {
+    font-size: 10px;
+  }
+  #bar {
+    height: 200px;
+    gap: 2rem;
+  }
+  .info {
+    line-height: 1rem;
+  }
+  #sec3 .number {
+    font-size: 70px;
+  }
+  #sec3 .message {
+    font-size: 20px;
+  }
+  #heading-container {
+    gap: 1.5rem;
+  }
+  #contact {
+    height: 600px;
+    gap: 1rem;
+  }
+  #contact form {
+    gap: 1rem;
+  }
+  #contact-heading {
+    font-size: 50px;
+  }
+  #contact-message {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .form-row input::placeholder {
+    font-size: 19px;
+  }
+  .form-row select,
+  .form-lastrow input,
+  textarea {
+    font-size: 19px;
+  }
+  .form-row input,
+  select {
+    width: 250px;
+    height: 50px;
+  }
+  #contact form button {
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  #sec5 #about {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #imgleft {
+    padding-top: 2rem;
+    width: 350px;
+    height: 250px;
+  }
+  #right {
+    border: #d2d4d8 solid 1px;
+    padding-top: 1rem;
+  }
+  #sec5 #p1 {
+    font-size: 25px;
+  }
+  #sec5 #p2 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #team {
+    flex-wrap: wrap;
+  }
+  #team .content .description {
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: #000 solid 1px;
+    padding: 0.7rem 0.8rem;
+  }
+  #team .content img {
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+  #team .content .line {
+    height: 15px;
+    width: 1px;
+  }
+  #sec6 #sec6-text #sec6-heading {
+    font-size: 70px;
+    letter-spacing: 1px;
+    line-height: 15px;
+  }
+  #sec6 #sec6-text #sec6-message {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 19px;
+  }
+  #sec6 #gallery #gallery-controls button {
+    border: #995336 solid 1px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  footer #footer-top {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  footer #footer-top .top-content {
+    gap: 0.5rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  footer #footer-top .top-content p {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  footer #footer-top .top-content ul {
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer #footer-top .top-content ul li {
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 10px;
+  }
+  #address ul li a {
+    font-size: 6px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    text-align: center;
+  }
+  #address ul li {
+    align-items: center;
+    justify-content: center;
+  }
+  #footer-bottom {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #footer-bottom p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer-bottom ul li a {
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #sec2 {
+    gap: 1rem;
+  }
+  #sec2-heading {
+    margin-top: 3rem;
+    gap: 2rem;
+  }
+  #sec2-heading p {
+    font-size: 60px;
+  }
+  #sec2-heading .line {
+    height: 2px;
+  }
+  #sec2-p {
+    font-size: 20px;
+    line-height: 1.5rem;
+  }
+  #sec2-bottom {
+    flex-wrap: wrap;
+  }
+  .bottom-content {
+    gap: 1.5rem;
+  }
+  .bottom-img {
+    width: 200px;
+    height: 300px;
+  }
+  .bottom-heading {
+    font-size: 25px;
+  }
+  .bottom-para {
+    font-size: 14px;
+  }
+  #bar {
+    height: 200px;
+    gap: 2rem;
+  }
+  .info {
+    line-height: 1rem;
+  }
+  #sec3 .number {
+    font-size: 70px;
+  }
+  #sec3 .message {
+    font-size: 20px;
+  }
+  #contact {
+    height: 700px;
+  }
+  #contact form {
+    gap: 1rem;
+  }
+  #contact-heading {
+    font-size: 70px;
+  }
+  #contact-message {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .form-row input::placeholder {
+    font-size: 19px;
+  }
+  .form-row select,
+  .form-lastrow input,
+  textarea {
+    font-size: 19px;
+  }
+  .form-row input,
+  select {
+    width: 350px;
+    height: 50px;
+  }
+  #contact form button {
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  #sec5 #about {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #imgleft {
+    padding-top: 2rem;
+    width: 450px;
+    height: 350px;
+  }
+  #right {
+    border: #d2d4d8 solid 1px;
+    padding-top: 1rem;
+  }
+  #sec5 #p1 {
+    font-size: 30px;
+  }
+  #sec5 #p2 {
+    font-size: 15px;
+    line-height: 12px;
+  }
+  #team {
+    flex-wrap: wrap;
+  }
+  #team .content .description {
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: #000 solid 1px;
+    padding: 0.7rem 0.8rem;
+  }
+  #team .content img {
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+  #team .content .line {
+    height: 15px;
+    width: 1px;
+  }
+  #sec6 #sec6-text #sec6-heading {
+    font-size: 70px;
+    letter-spacing: 1px;
+    line-height: 15px;
+  }
+  #sec6 #sec6-text #sec6-message {
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 19px;
+  }
+  #sec6 #gallery #gallery-controls button {
+    border: #995336 solid 1px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  footer #footer-top {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  footer #footer-top .top-content {
+    gap: 0.5rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  footer #footer-top .top-content p {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  footer #footer-top .top-content ul {
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer #footer-top .top-content ul li {
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 10px;
+  }
+  #address ul li a {
+    font-size: 6px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    text-align: center;
+  }
+  #address ul li {
+    align-items: center;
+    justify-content: center;
+  }
+  #footer-bottom {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #footer-bottom p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer-bottom ul li a {
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 615px) {
+  body {
+    overflow-x: hidden;
+  }
+  #menu-icon {
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(-100%, 65%);
+  }
+  header {
+    width: 100%;
+    justify-content: space-around;
+  }
+  header p a {
+    font-size: 18px;
+    transform: translateY(-20%);
+  }
+
+  nav {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    transform: translateY(-200%);
+    z-index: -1;
+    transition: all 0.2s ease-in-out;
+  }
+  nav ul {
+    position: relative;
+    flex-direction: column;
+    height: max-content;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  #heading1 {
+    font-size: 40px;
+  }
+  #heading2 {
+    font-size: 30px;
+  }
+  #sec1-heading {
+    gap: 0.2rem;
+  }
+  #sec2 {
+    gap: 1rem;
+  }
+  #sec2-heading {
+    margin-top: 3rem;
+    gap: 0.5rem;
+  }
+  #sec2-heading p {
+    font-size: 32px;
+  }
+  #sec2-heading .line {
+    height: 1px;
+  }
+  #sec2-p {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+  #sec2-bottom {
+    flex-wrap: wrap;
+  }
+  .bottom-content {
+    gap: 1.5rem;
+  }
+  .bottom-img {
+    width: 100px;
+    height: 130px;
+  }
+  .bottom-heading {
+    font-size: 20px;
+  }
+  .bottom-para {
+    font-size: 8px;
+  }
+  #bar {
+    height: 200px;
+    gap: 2rem;
+  }
+  .info {
+    line-height: 1rem;
+  }
+  #sec3 .number {
+    font-size: 33px;
+  }
+  #sec3 .message {
+    font-size: 15px;
+  }
+  #contact {
+    height: 600px;
+  }
+  #contact form {
+    gap: 1rem;
+  }
+  #contact-heading {
+    font-size: 30px;
+  }
+  #contact-message {
+    font-size: 15px;
+    line-height: 2rem;
+  }
+  .form-row input::placeholder {
+    font-size: 13px;
+  }
+  .form-row select,
+  .form-lastrow input,
+  textarea {
+    font-size: 19=3px;
+  }
+  .form-row input,
+  select {
+    width: 200px;
+    height: 50px;
+  }
+  #contact form button {
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  #sec5 #about {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #imgleft {
+    padding-top: 2rem;
+    width: 350px;
+    height: 250px;
+  }
+  #right {
+    border: #d2d4d8 solid 1px;
+    padding-top: 1rem;
+  }
+  #sec5 #p1 {
+    font-size: 25px;
+  }
+  #sec5 #p2 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #team {
+    flex-wrap: wrap;
+  }
+  #team .content .description {
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: #000 solid 1px;
+    padding: 0.7rem 0.8rem;
+  }
+  #team .content img {
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+  #team .content .line {
+    height: 15px;
+    width: 1px;
+  }
+  #sec6 #sec6-text #sec6-heading {
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 15px;
+  }
+  #sec6 #sec6-text #sec6-message {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 19px;
+  }
+  #sec6 #gallery #gallery-controls button {
+    border: #995336 solid 1px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  footer #footer-top {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  footer #footer-top .top-content {
+    gap: 0.5rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  footer #footer-top .top-content p {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  footer #footer-top .top-content ul {
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer #footer-top .top-content ul li {
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 10px;
+  }
+  #address ul li a {
+    font-size: 6px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    text-align: center;
+  }
+  #address ul li {
+    align-items: center;
+    justify-content: center;
+  }
+  #footer-bottom {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  #footer-bottom p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  #footer-bottom ul li a {
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+  #sec6 {
+    flex-wrap: wrap;
+    padding-top: 22rem;
+  }
+}
